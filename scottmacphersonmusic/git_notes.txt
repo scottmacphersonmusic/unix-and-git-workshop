@@ -1,0 +1,53 @@
+Git Notes
+
+git config --global user.name [username]  set username
+           --global user.email [email]    set email
+           --global core.editor emacs     set editor
+           --list                         show config settings
+
+git help [command]        show manpage for command
+
+git init                  initialize git in current directory
+
+git add [file]            stage/track file/s
+    *[suffix]             all files with matching suffix
+
+git commit -m [message]   commit staged files with message
+    -a                    stage all modified files
+
+git clone [url]           clone an existing repository
+
+git status                show status of files
+    -s                    short output
+
+git diff                  show what has changed but is not staged
+    --staged              last commit vs currently staged
+
+git log                   show commit history
+    -p                    show difference introduced in each commit
+    -2                    limit output to 2 entries
+    --stat                abbreviated stats for each commit
+
+git reset HEAD [file]     unstage file
+
+git remote                show short names of remote handles
+    -v                    show urls for reading and writing
+    add [shortname] [url]      add new remote repository
+    rename [old-name] [new-name]
+
+
+git fetch [remote-name]   fetch data from remote repo
+
+git push [remote-name] [branch-name]      push commits to remote repo
+
+git branch                        list branches
+    [branch-name]                 create a new git branch
+    -d [branch-name]              delete branch
+    -v                            list branches with last commits
+
+git checkout [branch-name]        switch to branch
+    -b [branch-name]              create and switch to branch
+
+git merge [branch-name]           merge branch-name into current branch
+
+git pull                          fetch and merge

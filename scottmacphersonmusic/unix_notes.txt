@@ -1,0 +1,71 @@
+Unix Notes
+
+man [program]   opens manual page for given program
+
+[command] --help      often displays help info
+
+info [program]        shows program info
+
+ls   list files
+     -a   show all files
+     -l   long format
+
+mv [file1] [file2]  move or rename a file
+
+cp [file1] [file2]  copy a file
+
+cat [file]          show file contents
+
+rm [file]  remove a file
+   -r      recursive
+   -f      force
+
+rmdir [dirname] remove directory
+
+chmod [options] [file]   change r/w/x permissions of given file
+
+chgrp           change group permissions
+
+chown           change owner
+
+mkdir [dirname] new directory
+
+cd [dirname]    change directory to given pathname
+   ..           go one level up
+   /            root directory
+   ~            home directory
+
+pwd             print working (current) directory
+
+echo       echo argument
+
+grep       search file
+
+head [file]    show first part of a given file
+
+tail [file]    show last part of a given file
+
+less [file]    open file in less program. q to quit
+
+emacs [file]   open/edit file in emacs
+
+date           display date
+
+time           display time
+
+cal            display calendar
+
+diff [file1] [file2]  show difference between files
+
+wc [file]    show lines, words and characters of given file
+
+passwd          change your password
+
+du [options] [filename]     show disk usage of given file
+   -s        just total
+
+printenv     show value of shell variable(s)
+
+ps           show current processes
+
+top          show all system processes
